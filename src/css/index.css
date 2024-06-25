@@ -1,0 +1,282 @@
+/* Reset styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.phone:hover {
+  color: #007bff;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+.social-image {
+  fill: black;
+}
+
+/* Hero styles */
+
+.hero {
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: linear-gradient(45deg, #ffdf00, #ffb800);
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.btn:hover {
+  filter: hue-rotate(45deg);
+}
+
+.hero-image img {
+  width: 500px;
+  height: auto;
+}
+
+/* About styles */
+.about {
+  padding: 80px 0;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 500px;
+  height: auto;
+}
+
+/* Advantages styles */
+.advantages {
+  background: linear-gradient(150deg, #ffdf00, #ffb800);
+  padding: 80px 0;
+}
+
+.advantages-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 80px;
+}
+
+.advantages-title {
+  text-align: center;
+}
+
+.advantages-title h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.advantages-text {
+  max-width: 500px;
+}
+
+.advantages-text p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.advantages-image img {
+  width: 500px;
+  height: auto;
+}
+
+/* Benefits styles */
+.benefits {
+  padding: 80px 0;
+}
+
+.benefits-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits-title {
+  text-align: center;
+}
+
+.benefits-title h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+}
+
+.benefit h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.benefit p {
+  line-height: 1.5;
+}
+
+.icon {
+  background: linear-gradient(to bottom, #f7dc6f, #ffb300);
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin: 0 0 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright {
+  text-align: center;
+}
